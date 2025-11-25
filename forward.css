@@ -32,6 +32,7 @@ body{
     width:400px;
     background-color:rgb(224, 6, 6);
     animation: scroll 5s alternate infinite;
+   animation-timeline:view();
     border-radius:20% 50%/50% 20%;
     color:rgb(255, 255, 255);
     align-content: flex-start;
@@ -58,4 +59,5 @@ img{
     justify-content:center;
     align-items:center;
     height:500px;
+
 }
